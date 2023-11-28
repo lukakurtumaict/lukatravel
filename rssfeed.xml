@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Grand Tour Travel</title>
+    <link>http://index.html</link>
+    <description>Sreća je mesto! Putujte širom sveta,Grand Tour Travel uvek na raspolaganju</description>
+    <item>
+      <title>Book</title>
+      <link>http://book.html</link>
+      <description>Uvek na raspolaganju,uvek dostupni za vas,rezervite vas odmor</description>
+    </item>
+    <item>
+      <title>Services</title>
+      <link>http://services.html</link>
+      <description>Poklon ponude,i zadovoljni korisnici</description>
+    </item>
+  </channel>
+</rss>

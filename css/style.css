@@ -1,0 +1,1153 @@
+/*@font-face
+{
+	
+	font-family: 'Roboto Condensed', sans-serif;
+}*/
+
+*
+{
+    margin:  0px auto;
+    padding: 0px auto;
+    box-sizing: border-box;
+}
+
+.cleaner{
+    clear: both;
+}
+
+#zaglavlje{
+    width: 100%;
+    height: 600px;
+    background-image: url(../Slike/pozadina.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#senka{
+    width: 100%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+header img{
+    height: 35px;
+}
+
+#logo{
+    display: flex;
+    flex-direction: row;
+    margin: 20px auto;
+}
+
+#logo a{
+    text-decoration: none;
+}
+
+#logo h1{
+    margin-top: 3px;
+    margin-left: 2px;
+    font-weight: 100;
+    color: white;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#navigacija{
+    display: flex;
+}
+
+header nav ul{
+    display: flex;
+    flex-direction: row;
+    margin: 30 0 0 0;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header nav ul li{
+    list-style-type: none;
+    font-size: 18px;
+    margin-right: 18px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+#dugme{
+    margin: 19px auto;
+    font-size: 13px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#dugme a{
+    text-decoration: none;
+    color: white;
+}
+
+#dugme h3{
+    width: 130px;
+    height: 41px;
+    text-align: center;
+    padding-top: 13px;
+    font-weight: 100;
+    border: 1px solid rgb(0, 128, 255);
+    background-color: rgb(0, 128, 255);
+}
+
+#naslov{
+    width: 60%;
+    height: 200px;
+    margin: 80 40 0 40;
+}
+
+#tekst1 h2{
+    color: white;
+    font-size: 35px;
+    font-weight: 100;
+    line-height: 55px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#tekst2{
+    margin-top: 35px;
+}
+
+#tekst2 p{
+    font-size: 28px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+#dugme1{
+    display: flex;
+    margin-right: 30%;
+    margin-top: 5%;
+}
+
+.taster{
+    width: 130px;
+    height: 45px;
+    margin-right: 30%;
+    border: 2px solid rgba(255, 255, 255, 0.7);
+}
+
+.taster p{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color:  rgba(255, 255, 255, 0.7);
+}
+
+.taster a{
+    text-decoration: none;
+}
+
+#istrazivanje{
+    display: flex;
+    margin: 80 50 0 50;
+}
+
+#tekst3 h4{
+    width: 65%;
+    margin-right: 250px;
+    margin-top: 100px;
+    font-size: 25px;
+    line-height: 50px;
+    font-weight: 100;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#tekst3 p{
+    margin-top: 60px;
+    text-align: left;
+    line-height: 35px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: rgb(89, 89, 89);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#slika img{
+    width:  100%;
+}
+
+#istrazivanje1{
+    display: flex;
+    text-align: center;
+    margin-left: 8%;
+    margin-top: 5%;
+    line-height: 50px;
+}
+
+.ikonice i{
+    font-size: 27px;
+    color: rgb(0, 128, 255);
+}
+
+.ikonice h5{
+    font-size: 33px;
+    font-weight: 100;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.ikonice p{
+    font-size: 18px;
+    color: rgb(89, 89, 89);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#planovi{
+    width: 100%;
+    height: 450px;
+    margin-top: 80px;
+    background-color: rgb(0, 128, 255);
+}
+
+#naslov1{
+    text-align: center;
+    padding-top: 60px;
+}
+
+#naslov1 h6{
+    font-size: 43px;
+    font-weight: 100;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#planovi1{
+    display: flex;
+    margin: 50 40 0 40;
+}
+
+.ikonice1{
+    text-align: center;
+}
+
+.ikonice1 i{
+    width: 25%;
+    height: 110px;
+    padding-top: 40px;
+    border-radius: 100px;
+    font-size: 25px;
+    background-color: white;
+    color: rgb(0, 128, 255);
+}
+
+.ikonice1 h5{
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: 100;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+} 
+
+.ikonice1 p{
+    margin-top: 40px;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgb(217, 217, 217);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#paketi{
+    width: 100%;
+    height: 600px;
+}
+
+.paketi1{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+#naslovi2{
+    text-align: center;
+    margin-top: 70px;
+}
+
+#naslovi2 h3{
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#naslovi2 p{
+    width: 60%;
+    margin-top: 25px;
+    font-size: 18px;
+    line-height: 30px;
+    color: rgb(115, 115, 115);
+    font-family: 'Roboto Condensed', sans-serif;
+    
+}
+
+.ikonice2{
+    margin-left: 9%;
+    margin-top: 3%;
+}
+
+#slicice{
+    width: 70%;
+    position: relative;
+    margin-top: 40px;
+    background-repeat: no-repeat;
+    background-image: url('../Slike/melburn.jpg');
+}
+
+#slicice1{
+    width: 70%;
+    position: relative;
+    margin-top: 40px;
+    background-repeat: no-repeat;
+    background-image: url('../Slike/india.jpg');
+}
+
+#slicice2{
+    width: 70%;
+    position: relative;
+    margin-top: 40px;
+    background-repeat: no-repeat;
+    background-image: url('../Slike/kina.jpg');
+}
+
+.cena{
+    width: 60px;
+    height: 35px;
+    display: flex;
+    margin: 130 0 0 153;
+    border: 2px solid  rgb(0, 128, 255);
+    position: absolute;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(0, 128, 255);
+}
+
+.cena h3{
+    font-size: 15px;
+    margin-top: 8px;
+    font-weight: 100;
+    color: white;
+}
+
+.cena i{
+    font-size: 13px;
+    margin-top: 12px;
+    color: white;
+}
+
+.pomoc{
+    width: 188px;
+    margin-right: 120px;
+    padding-top: 200px;
+}
+
+.pomoc p{
+    margin-top: 10px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: rgb(115, 115, 115);
+}
+
+#lokacija{
+    display: flex;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#lokacija i{
+    margin-top: 10px;
+    color: rgb(0, 128, 255);
+}
+
+#lokacija p{
+    margin-right: 30px;
+    font-size: 20px;
+    color: rgb(115, 115, 115);
+}
+
+#vreme{
+    display: flex;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#vreme i{
+    margin-top: 10px;
+    color: rgb(0, 128, 255);
+}
+
+#vreme h5{
+    margin-right: 30px;
+    font-size: 16px;
+    font-weight: 100;
+    color: rgb(115, 115, 115);
+    margin-top: 10px;
+}
+
+#ponude{
+    width: 100%;
+    height: 380px;
+    background-image: url('../Slike/ponuda.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#senka1{
+    width: 100%;
+    height: 380px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#naslovi3{
+    padding: 50 0 0 50;
+}
+
+#naslovi3 h1{
+    font-size: 50px;
+    font-weight: 100;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+
+#tekst4{
+    width: 70%;
+    margin: 30 0 0 50;
+}
+
+#tekst4 p{
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 35px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+
+#dugme2{
+    width: 15%;
+    height: 40px;
+    margin: 30 0 0 50;    
+    border: 2px solid white;
+}
+
+#dugme2 a{
+    text-decoration: none;
+}
+
+#dugme2 h3{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+}
+
+#paketi3{
+    width: 100%;
+    height: 400px;
+}
+
+#naslovi4{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#naslovi4 h3{
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#naslovi4 p{
+    width: 60%;
+    margin-top: 30px;
+    font-size: 19px;
+    line-height: 30px;
+    color: rgb(115, 115, 115);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.paketi4{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    margin-top: 45px;
+}
+
+.ponude1{
+    width: 20%;
+    height: 170px;
+    margin-left: 11%;
+    cursor: pointer;
+}
+
+.napred{
+    width: 300px;
+    height: 150px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .6s linear;
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.napred img{
+    height: 150px;
+}
+
+.pozadi {
+    width: 250px;
+    height: 150px;
+    overflow: hidden;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: transform .6s linear;
+    background: #f1f1f1;
+    transform: perspective(600px) rotateY(180deg);
+    background-color: rgb(38, 38, 38);
+}
+
+.spozadi{
+    text-align: center;
+    width: 100%;
+}
+
+.ponude1:hover > .napred{
+    transform: perspective(600px) rotateY(-180deg);
+}
+
+.ponude1:hover > .pozadi{
+    transform: perspective(600px) rotateY(0deg);
+}
+
+.spozadi h2{
+    color: white;
+    font-weight: 100;
+    font-size: 18px;
+    margin-top: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#dugme3{
+    margin-top: 20px;
+}
+
+#dugme3 a{
+    text-decoration: none;
+}
+
+#dugme3 h3{
+    width: 50%;
+    height: 30px;
+    font-size: 14px;
+    padding-top: 5px;
+    color: white;
+    border: 2px solid white;
+    font-weight: 100;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#dole{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+
+.sdole{
+    display: flex;
+    padding-top: 60px;
+}
+
+.tekst5{
+    width: 20%;
+    margin-left: 150px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.tekst5 h3{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 100;
+    color: white;
+}
+
+.tekst5 ul{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 30px;
+    color: white;
+}
+
+#ul ul{
+    margin-left: 15%;
+}
+
+.tekst5 ul li{
+    list-style-type: none;
+}
+
+.tekst5 p{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 30px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#slicice3{
+    margin-top: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#slicice3 a{
+    margin: 0 30 0 0;
+    font-size: 25px;
+}
+
+#slicice3 a i{
+    color:  rgb(0, 128, 255);
+}
+
+footer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: rgb(26, 26, 26);
+}
+
+#copy{
+    width: 40%;
+    font-size: 9px;
+}
+
+#copy h1{
+    font-weight: 100;
+    color: rgb(89, 89, 89);
+}
+
+#lista{
+    width: 20%;
+    margin-left: 35%;
+}
+
+#lista ul{
+    display: flex;
+    text-decoration: none;
+}
+
+#lista ul li a{
+    text-decoration: none;
+}
+
+#lista ul li{
+    list-style-type: none;
+}
+
+#lista ul li a{
+    font-size: 20px;
+    color: rgb(0, 128, 255);
+}
+
+#zaglavlje1{
+    width: 100%;
+    height: 250px;
+    background-image: url(../Slike/pozadina1.jpg);
+    position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#navigacija1{
+    display: flex;
+}
+
+#senka2{
+    width: 100%;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#odabir{
+    width: 100%;
+    height: 500px;
+    margin-top: 70px;
+    background-image: url(../Slike/mahal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#senka3{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#podnaslov{
+    text-align: center;
+    padding-top: 40px;
+}
+
+#podnaslov h3{
+    font-size: 43px;
+    font-weight: 100;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#drzac1{
+    display: flex;
+    margin-left: 4%;
+}
+
+#drzac{
+    width: 25%;
+    height: 250px;
+    display: flex;
+    text-align: center;
+    margin: 70 50 0 50;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+.blok i{
+    margin-top: 30px;
+    font-size: 30px;
+    color:  rgb(0, 128, 255);
+}
+
+.blok h3{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 100;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.blok p{
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 25px;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#klijenti{
+    width: 100%;
+    height: 480px;
+}
+
+#podnaslov1{
+    text-align: center;
+    padding-top: 35px;
+}
+
+#podnaslov1 h1{
+    font-size: 43px;
+    font-weight: 100;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#drzac2{
+    display: flex;
+}
+
+#drzac3{
+    width: 25%;
+    height: 250px;
+    display: flex;
+    text-align: center;
+    margin: 50 50 0 50;
+}
+
+.blok1 p{
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.blok1 img{
+    margin-top: 45px;
+    border-radius: 50px;
+}
+
+.blok1 h3{
+    margin-top: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 100;
+}
+
+#servis{
+    width: 100%;
+    height: 650px;
+}
+
+#servisn{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#servisn h3{
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#drzac4{
+    display: flex;
+    margin-left: 5%;
+}
+
+#drzac5{
+    width: 25%;
+    height: 250px;
+    display: flex;
+    text-align: center;
+    margin: 30 50 0 50;
+}
+
+.blok2 i{
+    margin-top: 30px;
+    font-size: 30px;
+    color:  rgb(0, 128, 255);
+}
+
+.blok2 h4{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.blok2 p{
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#drzac6{
+    display: flex;
+    margin-left: 5%;
+}
+
+#drzac7{
+    width: 25%;
+    height: 250px;
+    display: flex;
+    text-align: center;
+    margin: 5 50 0 50;
+}
+
+.blok3 i{
+    margin-top: 30px;
+    font-size: 30px;
+    color:  rgb(0, 128, 255);
+}
+
+.blok3 h4{
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.blok3 p{
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#turizam{
+    width: 100%;
+    height: 650px;
+}
+
+#turizamn{
+    text-align: center;
+    margin-top: 100px;
+}
+
+#turizamn h3{
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.turizamd{
+    display: flex;
+    align-items: center;
+}
+
+.turizamb{
+    display: flex;
+    width: 50%;
+    margin: 70 0 0 30;
+}
+
+#turizamsl img{
+    width: 255px;
+    height: 170px;
+}
+
+#turizamo{
+    margin-left: 20px;
+}
+
+#turizamo h3{
+    font-size: 20px;
+    font-weight: 100;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#turizamo i{
+    margin-top: 10px;
+    color:  rgb(0, 128, 255);
+}
+
+#turizamo p{
+    margin-top: 10px;
+    font-size: 15px;
+    color: black;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#turizamp{
+    display: flex;
+    margin-right: 60%;     
+}
+
+#turizamp i{
+    margin-right: 10%;
+}
+
+#turizamp h4{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 100;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#kontakt{
+    width: 100%;
+    height: 1200px;
+}
+
+#kontaktn{
+    text-align: center;
+    margin-top: 80px;
+}
+
+#kontaktn h1{
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#kontaktd{
+    display: flex;
+}
+
+.kontaktb{
+    width: 25%;
+    height: 250px;
+    text-align: center;
+    margin: 30 50 0 50;
+}
+
+.kontaktb i{
+    margin-top: 30px;
+    font-size: 30px;
+    color:  rgb(0, 128, 255);
+}
+
+.kontaktb h4{
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.kontaktb p{
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: 100;
+    line-height: 25px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#kontaktfafa{
+    display: flex;
+}
+
+#kontaktp1{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    margin-top: 30px;
+}
+
+#kontaktp{
+    width: 40%;
+}
+
+#forma table td input{
+    width: 390px;
+    height: 50px;
+    margin-top: 5px;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#forma table textarea{
+    width: 390px;
+    height: 50px;
+    margin-top: 5px;
+    font-size: 18px;
+    resize: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#forma table tr td a{
+    text-align: center;
+    text-decoration: none;
+}
+
+#forma table tr td a h3{
+    height: 50px;
+    margin-top: 5px;
+    padding-top: 13px;
+    border: 2px solid rgb(0, 128, 255);
+    background-color:  rgb(0, 128, 255);
+    font-weight: 100;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#kontaktq{
+    width: 50%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#kontaktq h3{
+    font-size: 30px;
+    font-weight: 100;
+}
+
+#kontaktq p{
+    margin-top: 15px;
+    line-height: 25px;
+}
+
+#kontaktq h4{
+    margin-top: 15px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+#mapa{
+    margin-top: 130px;
+    text-align: center;
+}
+
+#forma1{
+    width: 100%;
+    height: 600px;
+}
+
+#forman{
+    text-align: center;
+    margin-top: 80px;
+}
+
+#forman h3{
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#forma2 table td input,select{
+    width: 390px;
+    height: 50px;
+    margin: 40 0 0 20;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#forma2 table td a{
+    text-decoration: none;
+}
+
+#forma2 table td a h3{
+    text-align: center;
+    margin: 20 0 0 20;
+    height: 50px;
+    padding-top: 13px;
+    border: 2px solid rgb(0, 128, 255);
+    background-color:  rgb(0, 128, 255);
+    font-weight: 100;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#autor{
+    width: 100%;
+    height: 600px;
+}
+
+#autorn{
+    text-align: center;
+    margin-top: 60px;
+}
+
+#autorn h1{
+    font-size: 40px;
+    font-weight: 100;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#autord{
+    display: flex;
+    width: 80%;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+#autors img{
+    box-shadow: 20px 20px 20px;
+}
+
+#autort {
+    width: 50%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#autort p{
+    font-weight: 100;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+
+
